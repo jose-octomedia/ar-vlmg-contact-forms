@@ -102,6 +102,7 @@
                             <textarea id="field_message" class="form-control" rows="3" name="f_message"></textarea>
                         </div>
     
+    
                         <div class="form-group">
                             <label for="field_message"><?=LANG_DATE_C1?></label>
                             <div class='input-group date' id='datetimepicker1'>
