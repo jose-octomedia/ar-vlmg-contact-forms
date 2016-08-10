@@ -1409,3 +1409,206 @@
  DEBUG [0b7e0382] Command: /usr/bin/env mv /home/vlmg/subdomains/ar.vlmg.mx/releases/current /home/vlmg/subdomains/ar.vlmg.mx
  DEBUG [648e6c75] 	mv: cannot stat `/home/vlmg/subdomains/ar.vlmg.mx/releases/current': No such file or directory
   INFO [0b7e0382] Finished in 0.061 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-08-10 22:08:35 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a2db8ae2] Running /usr/bin/env mkdir -p /tmp as vlmg@vlmg.mx
+ DEBUG [a2db8ae2] Command: /usr/bin/env mkdir -p /tmp
+  INFO [6d76c389] Running /usr/bin/env mkdir -p /tmp as vlmg@vlmg.mx
+ DEBUG [6d76c389] Command: /usr/bin/env mkdir -p /tmp
+  INFO [a2db8ae2] Finished in 0.275 seconds with exit status 0 (successful).
+  INFO [6d76c389] Finished in 0.293 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-vlmg-forms-production-ubuntu.sh 0.0%
+  INFO Uploading /tmp/git-ssh-vlmg-forms-production-ubuntu.sh 100.0%
+ DEBUG Uploading /tmp/git-ssh-vlmg-forms-production-ubuntu.sh 0.0%
+  INFO Uploading /tmp/git-ssh-vlmg-forms-production-ubuntu.sh 100.0%
+  INFO [1f077928] Running /usr/bin/env chmod 700 /tmp/git-ssh-vlmg-forms-production-ubuntu.sh as vlmg@vlmg.mx
+ DEBUG [1f077928] Command: /usr/bin/env chmod 700 /tmp/git-ssh-vlmg-forms-production-ubuntu.sh
+  INFO [8ddc7455] Running /usr/bin/env chmod 700 /tmp/git-ssh-vlmg-forms-production-ubuntu.sh as vlmg@vlmg.mx
+ DEBUG [8ddc7455] Command: /usr/bin/env chmod 700 /tmp/git-ssh-vlmg-forms-production-ubuntu.sh
+  INFO [1f077928] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [8ddc7455] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [3185755d] Running /usr/bin/env git ls-remote --heads https://jose-octomedia:Rockandroll1@github.com/jose-octomedia/ar-vlmg-contact-forms.git as vlmg@vlmg.mx
+  INFO [ba44a771] Running /usr/bin/env git ls-remote --heads https://jose-octomedia:Rockandroll1@github.com/jose-octomedia/ar-vlmg-contact-forms.git as vlmg@vlmg.mx
+ DEBUG [3185755d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vlmg-forms-production-ubuntu.sh" ; /usr/bin/env git ls-remote --heads https://jose-octomedia:Rockandroll1@github.com/jose-octomedia/ar-vlmg-contact-forms.git )
+ DEBUG [ba44a771] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vlmg-forms-production-ubuntu.sh" ; /usr/bin/env git ls-remote --heads https://jose-octomedia:Rockandroll1@github.com/jose-octomedia/ar-vlmg-contact-forms.git )
+ DEBUG [3185755d] 	1f1e1d47f1a0dfd143b8099da2a60615b5196da5	refs/heads/master
+ DEBUG [ba44a771] 	1f1e1d47f1a0dfd143b8099da2a60615b5196da5	refs/heads/master
+  INFO [ba44a771] Finished in 0.222 seconds with exit status 0 (successful).
+  INFO [3185755d] Finished in 0.222 seconds with exit status 0 (successful).
+  INFO [37c7703b] Running /usr/bin/env mkdir -p /home/vlmg/subdomains/ar.vlmg.mx/shared /home/vlmg/subdomains/ar.vlmg.mx/releases as vlmg@vlmg.mx
+ DEBUG [37c7703b] Command: /usr/bin/env mkdir -p /home/vlmg/subdomains/ar.vlmg.mx/shared /home/vlmg/subdomains/ar.vlmg.mx/releases
+  INFO [8c1a58fc] Running /usr/bin/env mkdir -p /home/vlmg/subdomains/ar.vlmg.mx/shared /home/vlmg/subdomains/ar.vlmg.mx/releases as vlmg@vlmg.mx
+ DEBUG [8c1a58fc] Command: /usr/bin/env mkdir -p /home/vlmg/subdomains/ar.vlmg.mx/shared /home/vlmg/subdomains/ar.vlmg.mx/releases
+  INFO [8c1a58fc] Finished in 0.061 seconds with exit status 0 (successful).
+  INFO [37c7703b] Finished in 0.063 seconds with exit status 0 (successful).
+ DEBUG [b06e609a] Running [ -f /home/vlmg/subdomains/ar.vlmg.mx/current/REVISION ] as vlmg@vlmg.mx
+ DEBUG [eb11f0be] Running [ -f /home/vlmg/subdomains/ar.vlmg.mx/current/REVISION ] as vlmg@vlmg.mx
+ DEBUG [eb11f0be] Command: [ -f /home/vlmg/subdomains/ar.vlmg.mx/current/REVISION ]
+ DEBUG [b06e609a] Command: [ -f /home/vlmg/subdomains/ar.vlmg.mx/current/REVISION ]
+ DEBUG [eb11f0be] Finished in 0.058 seconds with exit status 0 (successful).
+ DEBUG [2ab10cef] Running /usr/bin/env cat /home/vlmg/subdomains/ar.vlmg.mx/current/REVISION 2>/dev/null as vlmg@vlmg.mx
+ DEBUG [2ab10cef] Command: /usr/bin/env cat /home/vlmg/subdomains/ar.vlmg.mx/current/REVISION 2>/dev/null
+ DEBUG [b06e609a] Finished in 0.061 seconds with exit status 0 (successful).
+ DEBUG [c3c6515e] Running /usr/bin/env cat /home/vlmg/subdomains/ar.vlmg.mx/current/REVISION 2>/dev/null as vlmg@vlmg.mx
+ DEBUG [c3c6515e] Command: /usr/bin/env cat /home/vlmg/subdomains/ar.vlmg.mx/current/REVISION 2>/dev/null
+ DEBUG [2ab10cef] 	146bd1781c88d462c827ce0f39dc14aea7fcbe3b
+146bd1781c88d462c827ce0f39dc14aea7fcbe3b
+ DEBUG [2ab10cef] Finished in 0.062 seconds with exit status 0 (successful).
+ DEBUG [c3c6515e] 	146bd1781c88d462c827ce0f39dc14aea7fcbe3b
+146bd1781c88d462c827ce0f39dc14aea7fcbe3b
+ DEBUG [c3c6515e] Finished in 0.064 seconds with exit status 0 (successful).
+ DEBUG [c2e51928] Running [ -f /home/vlmg/subdomains/ar.vlmg.mx/repo/HEAD ] as vlmg@vlmg.mx
+ DEBUG [c2e51928] Command: [ -f /home/vlmg/subdomains/ar.vlmg.mx/repo/HEAD ]
+ DEBUG [5cb4c2a3] Running [ -f /home/vlmg/subdomains/ar.vlmg.mx/repo/HEAD ] as vlmg@vlmg.mx
+ DEBUG [5cb4c2a3] Command: [ -f /home/vlmg/subdomains/ar.vlmg.mx/repo/HEAD ]
+ DEBUG [c2e51928] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/vlmg/subdomains/ar.vlmg.mx/repo
+ DEBUG [5cb4c2a3] Finished in 0.066 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/vlmg/subdomains/ar.vlmg.mx/repo
+ DEBUG [eafced72] Running if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/repo; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/repo'" 1>&2; false; fi as vlmg@vlmg.mx
+ DEBUG [eafced72] Command: if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/repo; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/repo'" 1>&2; false; fi
+ DEBUG [a279a76e] Running if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/repo; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/repo'" 1>&2; false; fi as vlmg@vlmg.mx
+ DEBUG [a279a76e] Command: if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/repo; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/repo'" 1>&2; false; fi
+ DEBUG [a279a76e] Finished in 0.069 seconds with exit status 0 (successful).
+ DEBUG [eafced72] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [64c89d88] Running /usr/bin/env git remote update --prune as vlmg@vlmg.mx
+ DEBUG [64c89d88] Command: cd /home/vlmg/subdomains/ar.vlmg.mx/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vlmg-forms-production-ubuntu.sh" ; /usr/bin/env git remote update --prune )
+  INFO [99b441b2] Running /usr/bin/env git remote update --prune as vlmg@vlmg.mx
+ DEBUG [99b441b2] Command: cd /home/vlmg/subdomains/ar.vlmg.mx/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vlmg-forms-production-ubuntu.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [99b441b2] 	Fetching origin
+ DEBUG [64c89d88] 	Fetching origin
+ DEBUG [99b441b2] 	From https://github.com/jose-octomedia/ar-vlmg-contact-forms
+   146bd17..1f1e1d4  master     -> master
+  INFO [99b441b2] Finished in 0.246 seconds with exit status 0 (successful).
+ DEBUG [64c89d88] 	error: cannot lock ref 'refs/heads/master': ref refs/heads/master is at 1f1e1d47f1a0dfd143b8099da2a60615b5196da5 but expected 146bd1781c88d462c827ce0f39dc14aea7fcbe3b
+From https://github.com/jose-octomedia/ar-vlmg-contact-forms
+ ! 146bd17..1f1e1d4  master     -> master  (unable to update local ref)
+ DEBUG [64c89d88] 	error: Could not fetch origin
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-08-10 22:11:19 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [fb6a38e5] Running /usr/bin/env mkdir -p /tmp as vlmg@vlmg.mx
+ DEBUG [fb6a38e5] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4ee4b8b4] Running /usr/bin/env mkdir -p /tmp as vlmg@vlmg.mx
+ DEBUG [4ee4b8b4] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4ee4b8b4] Finished in 0.279 seconds with exit status 0 (successful).
+  INFO [fb6a38e5] Finished in 0.283 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-vlmg-forms-production-ubuntu.sh 0.0%
+ DEBUG Uploading /tmp/git-ssh-vlmg-forms-production-ubuntu.sh 0.0%
+  INFO Uploading /tmp/git-ssh-vlmg-forms-production-ubuntu.sh 100.0%
+  INFO Uploading /tmp/git-ssh-vlmg-forms-production-ubuntu.sh 100.0%
+  INFO [a6295c9c] Running /usr/bin/env chmod 700 /tmp/git-ssh-vlmg-forms-production-ubuntu.sh as vlmg@vlmg.mx
+ DEBUG [a6295c9c] Command: /usr/bin/env chmod 700 /tmp/git-ssh-vlmg-forms-production-ubuntu.sh
+  INFO [d0092a36] Running /usr/bin/env chmod 700 /tmp/git-ssh-vlmg-forms-production-ubuntu.sh as vlmg@vlmg.mx
+ DEBUG [d0092a36] Command: /usr/bin/env chmod 700 /tmp/git-ssh-vlmg-forms-production-ubuntu.sh
+  INFO [a6295c9c] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [d0092a36] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [384a252c] Running /usr/bin/env git ls-remote --heads https://jose-octomedia:Rockandroll1@github.com/jose-octomedia/ar-vlmg-contact-forms.git as vlmg@vlmg.mx
+  INFO [16ad3081] Running /usr/bin/env git ls-remote --heads https://jose-octomedia:Rockandroll1@github.com/jose-octomedia/ar-vlmg-contact-forms.git as vlmg@vlmg.mx
+ DEBUG [384a252c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vlmg-forms-production-ubuntu.sh" ; /usr/bin/env git ls-remote --heads https://jose-octomedia:Rockandroll1@github.com/jose-octomedia/ar-vlmg-contact-forms.git )
+ DEBUG [16ad3081] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vlmg-forms-production-ubuntu.sh" ; /usr/bin/env git ls-remote --heads https://jose-octomedia:Rockandroll1@github.com/jose-octomedia/ar-vlmg-contact-forms.git )
+ DEBUG [16ad3081] 	1f1e1d47f1a0dfd143b8099da2a60615b5196da5	refs/heads/master
+  INFO [16ad3081] Finished in 0.171 seconds with exit status 0 (successful).
+ DEBUG [384a252c] 	1f1e1d47f1a0dfd143b8099da2a60615b5196da5	refs/heads/master
+  INFO [384a252c] Finished in 0.179 seconds with exit status 0 (successful).
+  INFO [7fd09d8c] Running /usr/bin/env mkdir -p /home/vlmg/subdomains/ar.vlmg.mx/shared /home/vlmg/subdomains/ar.vlmg.mx/releases as vlmg@vlmg.mx
+ DEBUG [7fd09d8c] Command: /usr/bin/env mkdir -p /home/vlmg/subdomains/ar.vlmg.mx/shared /home/vlmg/subdomains/ar.vlmg.mx/releases
+  INFO [9318f1df] Running /usr/bin/env mkdir -p /home/vlmg/subdomains/ar.vlmg.mx/shared /home/vlmg/subdomains/ar.vlmg.mx/releases as vlmg@vlmg.mx
+ DEBUG [9318f1df] Command: /usr/bin/env mkdir -p /home/vlmg/subdomains/ar.vlmg.mx/shared /home/vlmg/subdomains/ar.vlmg.mx/releases
+  INFO [9318f1df] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [7fd09d8c] Finished in 0.057 seconds with exit status 0 (successful).
+ DEBUG [1627219c] Running [ -f /home/vlmg/subdomains/ar.vlmg.mx/current/REVISION ] as vlmg@vlmg.mx
+ DEBUG [1627219c] Command: [ -f /home/vlmg/subdomains/ar.vlmg.mx/current/REVISION ]
+ DEBUG [58e529bc] Running [ -f /home/vlmg/subdomains/ar.vlmg.mx/current/REVISION ] as vlmg@vlmg.mx
+ DEBUG [58e529bc] Command: [ -f /home/vlmg/subdomains/ar.vlmg.mx/current/REVISION ]
+ DEBUG [1627219c] Finished in 0.054 seconds with exit status 0 (successful).
+ DEBUG [30774585] Running /usr/bin/env cat /home/vlmg/subdomains/ar.vlmg.mx/current/REVISION 2>/dev/null as vlmg@vlmg.mx
+ DEBUG [30774585] Command: /usr/bin/env cat /home/vlmg/subdomains/ar.vlmg.mx/current/REVISION 2>/dev/null
+ DEBUG [58e529bc] Finished in 0.055 seconds with exit status 0 (successful).
+ DEBUG [72a488cc] Running /usr/bin/env cat /home/vlmg/subdomains/ar.vlmg.mx/current/REVISION 2>/dev/null as vlmg@vlmg.mx
+ DEBUG [72a488cc] Command: /usr/bin/env cat /home/vlmg/subdomains/ar.vlmg.mx/current/REVISION 2>/dev/null
+ DEBUG [30774585] 	146bd1781c88d462c827ce0f39dc14aea7fcbe3b
+146bd1781c88d462c827ce0f39dc14aea7fcbe3b
+ DEBUG [30774585] Finished in 0.056 seconds with exit status 0 (successful).
+ DEBUG [72a488cc] 	146bd1781c88d462c827ce0f39dc14aea7fcbe3b
+146bd1781c88d462c827ce0f39dc14aea7fcbe3b
+ DEBUG [72a488cc] Finished in 0.056 seconds with exit status 0 (successful).
+ DEBUG [98aeaa14] Running [ -f /home/vlmg/subdomains/ar.vlmg.mx/repo/HEAD ] as vlmg@vlmg.mx
+ DEBUG [98aeaa14] Command: [ -f /home/vlmg/subdomains/ar.vlmg.mx/repo/HEAD ]
+ DEBUG [bc7f7d00] Running [ -f /home/vlmg/subdomains/ar.vlmg.mx/repo/HEAD ] as vlmg@vlmg.mx
+ DEBUG [bc7f7d00] Command: [ -f /home/vlmg/subdomains/ar.vlmg.mx/repo/HEAD ]
+ DEBUG [98aeaa14] Finished in 0.052 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/vlmg/subdomains/ar.vlmg.mx/repo
+ DEBUG [bc7f7d00] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/vlmg/subdomains/ar.vlmg.mx/repo
+ DEBUG [a138548e] Running if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/repo; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/repo'" 1>&2; false; fi as vlmg@vlmg.mx
+ DEBUG [6ac18e94] Running if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/repo; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/repo'" 1>&2; false; fi as vlmg@vlmg.mx
+ DEBUG [a138548e] Command: if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/repo; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/repo'" 1>&2; false; fi
+ DEBUG [6ac18e94] Command: if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/repo; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/repo'" 1>&2; false; fi
+ DEBUG [a138548e] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [ec57f68f] Running /usr/bin/env git remote update --prune as vlmg@vlmg.mx
+ DEBUG [ec57f68f] Command: cd /home/vlmg/subdomains/ar.vlmg.mx/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vlmg-forms-production-ubuntu.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [6ac18e94] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO [2ecc9081] Running /usr/bin/env git remote update --prune as vlmg@vlmg.mx
+ DEBUG [2ecc9081] Command: cd /home/vlmg/subdomains/ar.vlmg.mx/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vlmg-forms-production-ubuntu.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [ec57f68f] 	Fetching origin
+ DEBUG [2ecc9081] 	Fetching origin
+  INFO [ec57f68f] Finished in 0.178 seconds with exit status 0 (successful).
+  INFO [2ecc9081] Finished in 0.191 seconds with exit status 0 (successful).
+ DEBUG [4cee0b59] Running if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/repo; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/repo'" 1>&2; false; fi as vlmg@vlmg.mx
+ DEBUG [b98c3e94] Running if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/repo; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/repo'" 1>&2; false; fi as vlmg@vlmg.mx
+ DEBUG [4cee0b59] Command: if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/repo; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/repo'" 1>&2; false; fi
+ DEBUG [b98c3e94] Command: if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/repo; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/repo'" 1>&2; false; fi
+ DEBUG [b98c3e94] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [226664c3] Running /usr/bin/env mkdir -p /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120 as vlmg@vlmg.mx
+ DEBUG [226664c3] Command: cd /home/vlmg/subdomains/ar.vlmg.mx/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vlmg-forms-production-ubuntu.sh" ; /usr/bin/env mkdir -p /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120 )
+ DEBUG [4cee0b59] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [390d98c8] Running /usr/bin/env mkdir -p /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120 as vlmg@vlmg.mx
+ DEBUG [390d98c8] Command: cd /home/vlmg/subdomains/ar.vlmg.mx/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vlmg-forms-production-ubuntu.sh" ; /usr/bin/env mkdir -p /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120 )
+  INFO [390d98c8] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [905de171] Running /usr/bin/env git archive master | tar -x -f - -C /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120 as vlmg@vlmg.mx
+ DEBUG [905de171] Command: cd /home/vlmg/subdomains/ar.vlmg.mx/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vlmg-forms-production-ubuntu.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120 )
+  INFO [226664c3] Finished in 0.062 seconds with exit status 0 (successful).
+  INFO [105e7261] Running /usr/bin/env git archive master | tar -x -f - -C /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120 as vlmg@vlmg.mx
+ DEBUG [105e7261] Command: cd /home/vlmg/subdomains/ar.vlmg.mx/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vlmg-forms-production-ubuntu.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120 )
+  INFO [105e7261] Finished in 0.085 seconds with exit status 0 (successful).
+  INFO [905de171] Finished in 0.088 seconds with exit status 0 (successful).
+ DEBUG [ea37dc41] Running if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/repo; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/repo'" 1>&2; false; fi as vlmg@vlmg.mx
+ DEBUG [ea37dc41] Command: if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/repo; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/repo'" 1>&2; false; fi
+ DEBUG [031fffe7] Running if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/repo; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/repo'" 1>&2; false; fi as vlmg@vlmg.mx
+ DEBUG [031fffe7] Command: if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/repo; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/repo'" 1>&2; false; fi
+ DEBUG [ea37dc41] Finished in 0.054 seconds with exit status 0 (successful).
+ DEBUG [55dd4db7] Running /usr/bin/env git rev-list --max-count=1 master as vlmg@vlmg.mx
+ DEBUG [55dd4db7] Command: cd /home/vlmg/subdomains/ar.vlmg.mx/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vlmg-forms-production-ubuntu.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [031fffe7] Finished in 0.055 seconds with exit status 0 (successful).
+ DEBUG [9c08ab22] Running /usr/bin/env git rev-list --max-count=1 master as vlmg@vlmg.mx
+ DEBUG [9c08ab22] Command: cd /home/vlmg/subdomains/ar.vlmg.mx/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vlmg-forms-production-ubuntu.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [9c08ab22] 	1f1e1d47f1a0dfd143b8099da2a60615b5196da5
+ DEBUG [9c08ab22] Finished in 0.057 seconds with exit status 0 (successful).
+ DEBUG [55dd4db7] 	1f1e1d47f1a0dfd143b8099da2a60615b5196da5
+ DEBUG [55dd4db7] Finished in 0.065 seconds with exit status 0 (successful).
+ DEBUG [97ed106b] Running if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120'" 1>&2; false; fi as vlmg@vlmg.mx
+ DEBUG [97ed106b] Command: if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120'" 1>&2; false; fi
+ DEBUG [35dba7f5] Running if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120'" 1>&2; false; fi as vlmg@vlmg.mx
+ DEBUG [35dba7f5] Command: if test ! -d /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120; then echo "Directory does not exist '/home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120'" 1>&2; false; fi
+ DEBUG [97ed106b] Finished in 0.053 seconds with exit status 0 (successful).
+  INFO [ad51a93c] Running /usr/bin/env echo "1f1e1d47f1a0dfd143b8099da2a60615b5196da5" >> REVISION as vlmg@vlmg.mx
+ DEBUG [ad51a93c] Command: cd /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120 && /usr/bin/env echo "1f1e1d47f1a0dfd143b8099da2a60615b5196da5" >> REVISION
+ DEBUG [35dba7f5] Finished in 0.059 seconds with exit status 0 (successful).
+  INFO [965aca23] Running /usr/bin/env echo "1f1e1d47f1a0dfd143b8099da2a60615b5196da5" >> REVISION as vlmg@vlmg.mx
+ DEBUG [965aca23] Command: cd /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120 && /usr/bin/env echo "1f1e1d47f1a0dfd143b8099da2a60615b5196da5" >> REVISION
+  INFO [ad51a93c] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [965aca23] Finished in 0.053 seconds with exit status 0 (successful).
+  INFO [313a1111] Running /usr/bin/env ln -s /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120 /home/vlmg/subdomains/ar.vlmg.mx/releases/current as vlmg@vlmg.mx
+ DEBUG [313a1111] Command: /usr/bin/env ln -s /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120 /home/vlmg/subdomains/ar.vlmg.mx/releases/current
+  INFO [3c04308f] Running /usr/bin/env ln -s /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120 /home/vlmg/subdomains/ar.vlmg.mx/releases/current as vlmg@vlmg.mx
+ DEBUG [3c04308f] Command: /usr/bin/env ln -s /home/vlmg/subdomains/ar.vlmg.mx/releases/20160810221120 /home/vlmg/subdomains/ar.vlmg.mx/releases/current
+  INFO [3c04308f] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [8eb2e10d] Running /usr/bin/env mv /home/vlmg/subdomains/ar.vlmg.mx/releases/current /home/vlmg/subdomains/ar.vlmg.mx as vlmg@vlmg.mx
+ DEBUG [8eb2e10d] Command: /usr/bin/env mv /home/vlmg/subdomains/ar.vlmg.mx/releases/current /home/vlmg/subdomains/ar.vlmg.mx
+  INFO [313a1111] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [6420a56e] Running /usr/bin/env mv /home/vlmg/subdomains/ar.vlmg.mx/releases/current /home/vlmg/subdomains/ar.vlmg.mx as vlmg@vlmg.mx
+ DEBUG [6420a56e] Command: /usr/bin/env mv /home/vlmg/subdomains/ar.vlmg.mx/releases/current /home/vlmg/subdomains/ar.vlmg.mx
+  INFO [8eb2e10d] Finished in 0.055 seconds with exit status 0 (successful).
+ DEBUG [6420a56e] 	mv: cannot stat `/home/vlmg/subdomains/ar.vlmg.mx/releases/current': No such file or directory
