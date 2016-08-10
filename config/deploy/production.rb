@@ -6,9 +6,9 @@ server 'vlmg.mx', user: 'vlmg', roles: %w{web}, primary: true, port: 18765
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
-set :deploy_to, "/home/vlmg/subdomains/ar.vlmg.mx.deployments"
+set :deploy_to, "/home/vlmg/subdomains/ar.vlmg.mx"
 
-set :current_path, '/home/vlmg/subdomains/ar.vlmg.mx'
+#set :current_path, '/home/vlmg/subdomains/ar.vlmg.mx'
 
 
 # role-based syntax
@@ -62,3 +62,4 @@ role :web, %w{vlmg@vlmg.mx}
 ##     auth_methods: %w(publickey password)
 #     # password: 'please use keys'
 #   }
+
